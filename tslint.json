@@ -126,7 +126,10 @@
     "component-selector": [
       true,
       "element",
-      "app",
+      [
+        "page",
+        "app"
+      ],
       "kebab-case"
     ],
     "no-output-on-prefix": true,
@@ -137,7 +140,12 @@
     "no-output-rename": true,
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
-    "component-class-suffix": true,
+    "component-class-suffix": [
+      true,
+      "Component",
+      "Page",
+      "Pipe"
+    ],
     "directive-class-suffix": true
   }
 }
