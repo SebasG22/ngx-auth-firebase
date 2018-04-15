@@ -1,11 +1,13 @@
-import { EmailLoginComponent } from "./email-login/email-login.component";
-import { FacebookLoginComponent } from "./facebook-login/facebook-login.component";
-import { GoogleLoginComponent } from "./google-login/google-login.component";
-import { TelephoneLoginComponent } from "./telephone-login/telephone-login.component";
+import { AuthEmailComponent } from "./email/email.component";
+import { AuthFacebookComponent } from "./facebook/facebook.component";
+import { AuthGoogleComponent } from "./google/google.component";
+import { AuthGithubComponent } from "./github/github.component";
+import { AuthPhoneComponent } from "./phone/phone.component";
 
 export const COMPONENTS = [
-  EmailLoginComponent,
-  FacebookLoginComponent,
-  GoogleLoginComponent,
-  TelephoneLoginComponent
+  AuthEmailComponent,
+  AuthFacebookComponent,
+  AuthGoogleComponent,
+  AuthGithubComponent,
+  AuthPhoneComponent
 ];

@@ -30,10 +30,12 @@ export class loginUser implements Action {
 
 export class loginUser_success implements Action {
   public readonly type = LOGIN_USER_SUCCESS;
+  public constructor(public payload: any) { }
 }
 
 export class loginUser_error implements Action {
   public readonly type = LOGIN_USER_ERROR;
+  public constructor(public payload: any) { }
 }
 
 export type All =
