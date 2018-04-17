@@ -1,7 +1,7 @@
 import { AuthModule } from "./auth/auth.module";
-import { SharedModule } from "./shared/shared.module";
+import { MaterialModule } from "./material/material.module";
 
 export const MODULES = [
   AuthModule,
-  SharedModule
+  MaterialModule
 ]

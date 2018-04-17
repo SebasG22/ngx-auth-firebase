@@ -1,5 +1,7 @@
-import { LoginPage } from "./login/login.page";
+import { AuthEmailRegisterPage } from "./email/register/register-email.page";
+import { AuthEmailLoginPage } from "./email/login/login-email.page";
 
 export const PAGES = [
-  LoginPage
+  AuthEmailRegisterPage,
+  AuthEmailLoginPage
 ]

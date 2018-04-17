@@ -34,4 +34,4 @@ const MATERIAL_MODULES = [
   declarations: [],
   providers: [],
 })
-export class SharedModule { }
+export class MaterialModule { }

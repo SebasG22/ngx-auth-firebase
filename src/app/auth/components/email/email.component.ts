@@ -10,4 +10,5 @@ export class AuthEmailComponent implements OnInit {
   constructor() { }
 
   ngOnInit() { }
+
 }
